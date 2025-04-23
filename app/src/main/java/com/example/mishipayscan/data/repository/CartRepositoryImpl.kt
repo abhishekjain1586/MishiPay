@@ -1,6 +1,5 @@
 package com.example.mishipayscan.data.repository
 
-import android.util.Log
 import com.example.mishipayscan.domain.models.Product
 import com.example.mishipayscan.domain.repository.ICartRepository
 import javax.inject.Inject
@@ -13,7 +12,6 @@ class CartRepositoryImpl @Inject constructor(
 
     override suspend fun addToCart(result: String): List<Product> {
         val newProduct: Product = getRandomProduct()
-        Log.d("testingggg", " ${this.hashCode()}// ${newProduct.id} //  ${newProduct.title}")
 
         val existingProduct = cartProducts.find { it.id == newProduct.id }
         existingProduct?.let {
