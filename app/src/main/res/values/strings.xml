@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MishiPay Scan</string>
+
+    <string name="scan">Scan</string>
+    <string name="scan_item_and_add_to_cart">Scan barcode to add items to Cart</string>
+
+    <string name="cart">Cart</string>
+    <string name="rs">\u20B9 %s</string>
+    <string name="qty">Qty: %s</string>
+    <string name="checkout">Checkout</string>
+
+    <string name="purchase_summary">Purchase Summary</string>
+    <string name="total">Total:</string>
+    <string name="confirm">CONFIRM</string>
+</resources>
